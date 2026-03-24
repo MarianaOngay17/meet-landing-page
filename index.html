@@ -4,28 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
   <title>Frontend Mentor | Meet landing page</title>
 </head>
 <body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
 
-  Download v1.3
-  What is it?
+    <header>
+      <div class="landing__logo">
+        <img src="assets/logo.svg" alt="logo">
+      </div>
+      <div class="landing__image"></div> 
+      <div class="landing__header" data-aos="fade-down">
+        <div class="landing__title">
+          Group Chat<br>for Everyone
+        </div>
+        <div class="landing__description">
+          Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+        </div>
+        <div class="landing__buttons-section">
+          <div class="landing__button landing__button--download">
+            Download <span class="landing__button--download-version">v1.3</span>
+          </div>
+          <div class="landing__button landing__button--what">
+            What is it?
+          </div>
+        </div>
+        
 
-  01
-  Built for modern use
+      </div>
 
-  Smarter meetings, all in one place
+    </header>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+    <main data-aos="fade-down">
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+      <div class="landing__number" > 01 </div>
+      <div class="landing__carrusel">
+        <img src="assets/desktop/image-woman-in-videocall.jpg" class="landing__carrusel--image">
+        <img src="assets/desktop/image-women-videochatting.jpg" class="landing__carrusel--image">
+        <img src="assets/desktop/image-men-in-meeting.jpg" class="landing__carrusel--image">
+        <img src="assets/desktop/image-man-texting.jpg" class="landing__carrusel--image"> 
+      </div>
+      <div class="landing__content">
+        <div class="landing__phrase"> 
+          Built for modern use
+        </div>
+        <div class="landing__subtitle"> 
+          Smarter meetings, all in one place 
+        </div>
+        <div class="landing__info">
+          Send messages, share files, show your screen, and record your meetings — all in one 
+          workspace. Control who can join with invite-only team access, data encryption, and data export.
+        </div>
+      </div>
+    
 
-  Download v1.3
+    </main>
+
+    <footer>
+      
+      <div class="landing__footer">
+        <div class="landing__footer-contenido">
+            <div class="landing__number landing__number--footer"> 02 </div>
+            <div class="landing__subtitle landing__subtitle--footer">
+              Experience more together
+            </div>
+            <div class="landing__info landing__info--footer">
+              Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+            </div>
+
+            <div class="landing__button landing__button--download-footer ">
+                Download <span class="landing__button--download-footer-version">v1.3</span>
+            </div>
+        </div>
+        
+      </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+//Tamaño Media Queries 
+$telefono: 375px;
+$tablet: 768px;
+$desktop: 1200px;
+
+//Fuentes
+$fuente_principal: "Red Hat Display", sans-serif;
+
+//Colores
+
+$cyan300: #8FE3F9;
+$cyan600: #4D96A9;
+$cyan400: mix($cyan300, $cyan600, 50%);
+
+$purple300: #D9B8FF;
+$purple600: #855FB1;
+$purple400: mix($purple300, $purple600, 50%);
+
+$slate300: #D1D1DF;
+$slate600: #87879D;
+$slate900: #28283D;
+
+$white: #FAFAFA;
+
+//Tamaños fuente
+$medium: 500;
+$black900: 900;
